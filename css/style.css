@@ -132,6 +132,9 @@ hr{
 #certificate .inner{
 	overflow: hidden;
 }
+.resume{
+	background-color:   #e6e6e6;
+}
 footer{
 	width: 100%;
 	background-color: gray;
