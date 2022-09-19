@@ -1,0 +1,53 @@
+body{
+	background-image: url("../img/3.jpg");
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.user{
+	box-shadow: 5px 5px 50px gray;
+	border-radius: 150px;
+	/*position: absolute;
+	right: 0;*/
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/13.jpg");
+}
+.wish{
+	font-family: calibri; 
+	color: white; 
+	font-size: 32px;
+	line-height: 1.5;
+	text-align: center;
+}
+.is-birthday{
+	display: none;
+}
+.not-birthday{
+	visibility: hidden;
+}footer{
+	color: white;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: bolder;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
+	position: fixed;
+
+}
+footer a:visited{
+	color: inherit;
+}

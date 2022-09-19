@@ -1,0 +1,92 @@
+*{margin: 0;padding: 0;}
+
+body{
+	background-color: #19172e;
+	font-family: calibri;
+}
+
+#main{
+	border-radius: 20px;
+	padding: 20px;
+	margin: auto;
+	margin-top: 20px;
+	width: 500px;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+.heading{
+	text-align: center;
+	color: white;
+	margin: 5px;
+}
+input[type="text"]{
+	font-size: 16px;
+	font-weight: bolder;
+	width: 300px;
+	height:40px;
+	border: 0;
+	border-radius: 5px;
+	transition: all 1s;
+}
+
+#add{
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bolder;
+	width: 100px;
+	height: 40px;
+	background-color: #ffd662ff;
+}
+#add:hover{
+	background-color: #1e8e3e;
+	}
+.list{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	background-color: white;
+	color: black;
+	font-weight: bolder;
+	padding: 15px;
+	width: 372px;
+	border-radius: 5px;
+}
+.checked{
+	cursor: pointer;
+	background-color: green;
+	color: white;
+	padding: 17px;
+}
+.item{
+	font-size: 18px;
+	text-transform: uppercase;
+
+}
+.delete{
+	cursor: pointer;
+	margin-left: 10px;
+	background-color: #f55442;
+	color: white;
+	padding: 17px;
+	}
+.done{
+	text-decoration: line-through;
+	background-color: #31a510;
+	color: white;
+	font-weight: bolder;
+}
+.abc{
+	visibility: hidden;
+}
+.check{
+	visibility: hidden;
+}footer{
+	color: white;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: bolder;
+	margin-bottom: 5px;
+
+}
+footer a:visited{
+	color: inherit;
+}

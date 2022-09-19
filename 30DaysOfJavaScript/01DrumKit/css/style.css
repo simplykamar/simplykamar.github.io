@@ -1,0 +1,106 @@
+*{margin: 0;padding: 0;}
+
+body{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	user-select: none;
+	font-family: calibri;
+}
+.key-65{
+	background-image: url("../images/tom1.png");
+	background-color: white;
+}
+.key-83{
+	background-image: url("../images/tom2.png");
+	background-color: white;
+}
+.key-68{
+	background-image: url("../images/tom1.png");
+	background-color: white;
+}
+.key-70{
+	background-image: url("../images/openhat.png");
+	background-color: white;
+}
+.key-71{
+	background-image: url("../images/boom.jfif");
+	background-color: white;
+}
+.key-72{
+	background-image: url("../images/tom4.png");
+	background-color: white;
+}
+.key-74{
+	background-image: url("../images/snare.png");
+	background-color: white;
+}
+.key-75{
+	background-image: url("../images/tom.jfif");
+	background-color: white;
+}
+.key-76{
+	background-image: url("../images/tink.jfif");
+	background-color: white;
+}
+.title{
+	color: white;
+	font-size: 4.5rem;
+	text-align: center;
+}
+.keys{
+	display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+.key{
+	width: 125px;
+	height: 125px;
+	border: 5px solid white;
+	border-radius: 20px;
+	margin: 10px;
+	transition: all 0.07s
+
+}
+.playing{
+	border: 5px solid yellow;
+	transform: scale(1.1);
+
+}
+kbd{
+	display: block;
+	color: #0F2C67;
+	font-size: 4rem;
+	text-align: center;
+	text-shadow: 2px 0 1px white;
+	cursor: pointer;
+}
+.sound{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 1rem;
+	display: block;
+	text-align: center;
+	color: #483434;
+}
+footer{
+	color: white;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: bolder;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
+	position: fixed;
+
+}
+#tag{
+	text-decoration: underline;
+}
+footer a:visited{
+	color: inherit;
+}

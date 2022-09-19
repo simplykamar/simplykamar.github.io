@@ -1,0 +1,64 @@
+*{margin: 0; padding: 0;}
+body{
+	background-image: url("../img/Clear1.jpg");
+	background-size: cover;
+	font-family: calibri;
+   height: 100vh;
+	background-repeat: no-repeat;
+}
+.heading{
+	margin: 5px;
+	font-size: 40px;
+	text-align: center;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.container{
+	padding: 10px;
+  background-color: rgba(255, 255, 255,0.50);
+
+}
+input[type="text"]{
+	text-transform: capitalize;
+	height: 32px;
+	width: 250px;
+	font-size: 20px;
+
+}
+.inner{	
+	background-color: #d1ebee;
+	margin: 10px;
+}
+.content{
+	text-align: center;
+	padding: 10px;
+	font-size: 24px;
+	font-weight: bolder;
+}
+hr{
+	height: 1px;
+	background-color: black;
+}
+#not-found{
+	display: none;
+}
+footer{
+	color: white;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: bolder;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
+	position: fixed;
+
+}
+footer a:visited{
+	color: inherit;
+}

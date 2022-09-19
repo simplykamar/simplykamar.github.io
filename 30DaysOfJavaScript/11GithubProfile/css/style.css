@@ -1,0 +1,32 @@
+body{
+	background-color: #571176;
+}
+.main{
+	display: flex;
+	justify-content: center;
+}
+.display-4{
+	font-size: 48px;
+}
+.btn-dark{
+	background-color: #181616;
+}
+/*form{
+	width: 60%;
+}
+*/
+.git-profile{
+	background-color: #c1baba;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.git-detail{
+	background-color: #6f5d7a;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;}
+.rounded{
+	border-radius: 20px;
+}
+.display-alert{
+	font-weight: bolder;
+}

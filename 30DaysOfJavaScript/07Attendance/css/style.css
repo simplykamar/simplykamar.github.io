@@ -1,0 +1,74 @@
+*{
+	margin: 0;padding: 0;
+}
+body{
+	background-image: url("../img/b2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.container{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+.heading{
+	color: white;
+	margin-bottom: 20px
+}
+.sub-heading{
+	font-size: 16px;
+	color: white;
+	margin-bottom: 20px
+}
+thead{
+	background-color:black ;
+	color: white;
+	font-weight: bold;
+}
+table th{
+	padding: 10px;
+	margin: 0;
+
+}
+
+table{
+	text-align: center;
+	width: 400px;
+ 	height: 500px;
+ 	box-shadow: 0 5px 10px #d9d2ce;
+ 	border-radius: 10px;
+
+}
+.name{
+	text-align: left !important;
+}
+.present{
+	color: green;
+	font-size: 20px;
+	cursor: pointer;
+}
+.absent{
+	color: red;
+	font-size: 20px;
+	cursor: pointer;
+}
+.is-present{
+	background-color: #a7f5bc !important;
+	color: black !important;
+}
+
+.is-absent{
+	background-color: #de6868;
+	color: white;
+}
+footer{
+	color: white;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: bolder;
+	margin-bottom: 5px;
+
+}
+footer a:visited{
+	color: inherit;
+}

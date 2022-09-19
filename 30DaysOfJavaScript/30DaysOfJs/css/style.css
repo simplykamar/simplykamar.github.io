@@ -1,0 +1,68 @@
+*{margin: 0;padding: 0;}
+/*here primary color refers to background 
+ secondary color refers to font color
+heading color refers to background color of title
+  */
+:root{
+	--primary-color: #eee;
+	--secondary-color: #111 ;
+	--heading-color: #aba6a6;
+	--main-heading: #343a40;
+}
+.darkmode{
+	--primary-color: #252626;
+	--secondary-color: white;
+	--heading-color: #111;
+	--main-heading: white;
+}
+
+body{
+	background-color: var(--primary-color);
+	user-select: none;
+}
+.main-heading{
+	color: var(--main-heading);
+}
+.heading{
+	font-size: 2rem;
+	font-weight: bolder;
+}
+.card-header{
+	color: var(--secondary-color);
+	background-color: var(--heading-color);
+}
+.card{
+	box-shadow: 5px 5px 5px #cfcaca;
+}
+.card-img-top{
+	min-height: 200px;
+	opacity: .5;
+	transition: 2s;
+	cursor: pointer;
+}
+.card .inner{
+	overflow: hidden;
+}
+.card-img-top:hover {
+	opacity: 1;
+	transform: scale(1.2);
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+}
+footer a{
+	text-decoration: underline;
+	color: white;
+	font-weight: bolder;
+}
+footer a: visited{
+	color: inherit;
+}
+#darkmode-icon{
+	width: 40px;
+	height: 40px;
+	cursor: pointer	;
+}
