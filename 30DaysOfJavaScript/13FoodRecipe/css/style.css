@@ -1,12 +1,48 @@
 *{margin: 0;padding: 0;}
 
 .display-4{
-	font-size: 48px;
+	font-size: 40px;
 }
 body{
-	background-color: #eed33a;
+	background-color: #eb9539;
 }
 
 /*.container{
 	padding: 10px;
 }*/
+.my-form{
+	display: flex;
+	justify-content: center;
+
+}
+input[type="search"]{
+	border: 2px solid gray;
+	width: 300px;
+}
+.card-img-top{
+	height: 400px;
+}
+.img-modal{
+	height: 300px;
+	width: 100%;
+}
+.modal-content{
+	color: white;
+background: #eb9539 !important;
+}footer{
+	width: 100%;
+	height: 100px;
+	font-size: 1.5rem;
+	font-weight: bolder;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+footer a:visited{
+	color: inherit;
+}
+.alert{
+width: 100%;
+display: none;
+}
