@@ -4,6 +4,7 @@ body{
 	background-image: url("../img/bg1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 100vh;
 	background-position: center;
 }
 main{
@@ -22,4 +23,19 @@ main{
 }
 .btn{
 	width: 360px;
+}
+footer{
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: bolder;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
+	position: fixed;
+
+}
+footer a:visited{
+	color: inherit;
 }
