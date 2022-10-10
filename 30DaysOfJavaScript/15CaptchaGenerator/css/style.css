@@ -4,6 +4,7 @@ body{
 	background: #201c36;
 }
 .captcha-bg{
+	width: 240px;
 	padding: 5px;
 	letter-spacing: 15px;
 	color: white;
@@ -44,4 +45,19 @@ input[type="text"]:focus{
 }
 input[type="text"]{
 	border: none;
+}footer{
+	color: white;
+	text-align: center;
+	text-align: center;
+	font-weight: bolder;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
+	position: fixed;
+
+}
+footer a:visited{
+	color: inherit;
 }
