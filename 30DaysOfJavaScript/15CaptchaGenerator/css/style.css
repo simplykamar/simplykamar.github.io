@@ -1,0 +1,47 @@
+*{margin: 0;padding: 0;}
+
+body{
+	background: #201c36;
+}
+.captcha-bg{
+	padding: 5px;
+	letter-spacing: 15px;
+	color: white;
+	background-image:url("../img/bg6.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	user-select: none;
+}
+section{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section .main{
+	background-color: white;
+	padding: 25px;
+	border-radius: 10px;
+}
+
+.text-orange{
+	color: #e45826;	
+}
+.btn-orange{
+	background-color:#e45826 ;
+}
+.btn-orange:hover{
+	background-color:#f16838;
+}
+.form-border{
+	padding: 5px;
+	border-radius: 5px;
+	border: 2px solid #e45826;
+}
+input[type="text"]:focus{
+	box-shadow: none;
+	border: none;
+}
+input[type="text"]{
+	border: none;
+}
