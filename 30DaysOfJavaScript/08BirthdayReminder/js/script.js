@@ -12,6 +12,7 @@ const month = d.getMonth()+1;
 const data = {
 	"subzar rasool":[4,3],
 	"muneer":[4,5],
+	"Rajida":[8,11],
 	"sajjad ali":[18,11],
 	"nabeel":[15,6],
 	"tarique":[19,4],
